@@ -4,43 +4,44 @@
 
 ### Comandos Simples
 
-* Criar pasta no workspace: ' mkdir [file-name]'
+* Criar pasta no workspace: `mkdir [file-name]`
 
-* Git config --global user.email / Git config --global user.name - configura informações
+* `Git config --global user.email / Git config --global user.name ` - configura informações
 
-* Git config --list     - _vê informações_
+* `Git config --list` - _vê informações_
 
-* mkdir          - _cria diretórios_
+* `mkdir`      - _cria diretórios_
 
-* rm                - _remove arquivos e diretórios_
+* `rm`              - _remove arquivos e diretórios_
 
-* echo >README.md
+* `echo >README.md` - _cria arquivo readme em md_
 
-* mv arquivo.ext ./repositoriodestino/ 
+* `mv arquivo.ext ./repositoriodestino/` - _muda o arquivo.ext de pasta_
 
-* ls                  - _mostra os diretórios e arquivos_
+* `ls`              - _mostra os diretórios e arquivos_
 
-* cd  / cd ..     - _navegação_
+* `cd  / cd ..`     - _navegação_
 
-* Ctrl+l           - _limpa a tela_
+* `Ctrl+l`       - _limpa a tela_
 
   
 
-  > Criando arquivos primeiro no local e enviando ao gitHub
+### Criando arquivos primeiro no local e enviando ao gitHub
 
-  * Criar pasta no workspace: ' mkdir [file-name]'
-  * echo >README.md
-  * "Git init" - _inicia repositório vazio_
-  * criar no GitHub repositório com o mesmo nome - copiar link
-  * Git remote add origin [link do repositório no gitHub]
-  * Git push origin master  - _empurra para o GitHub_
-  * Git status
+  - Criar pasta no workspace: `mkdir [file-name]`
+  - `echo >README.md`
+  - `Git init` - _inicia repositório vazio_
+  - criar no GitHub repositório com o mesmo nome - copiar link
+  - `Git remote add origin [link do repositório no gitHub]`
+  - `Git push origin master`  - _empurra para o GitHub_
+  - `Git status`
 
-  > Criando arquivos primeiro no gitHub e enviando para o local 
+### Criando arquivos primeiro no gitHub e enviando para o local 
 
   * Criar no local repositório com o mesmo nome - NÃO iniciar git
-  * Git clone - _clona repositório do GitHub_
-  * Git add - _adiciona ao stage_
-  * Git commit -m - _comita com uma nota curta sobre a ação_
-  * Git status
+  * `Git clone` - _clona repositório do GitHub_
+  * `Git add`- _adiciona ao stage_
+  * `Git commit -m ` - _comita com uma nota curta sobre a ação_
+  * `Git status`
 
+_SH Oliveira_ 🐾
